@@ -1,0 +1,734 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.12)  16 NOV 2018 19:18
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/joanacruz/Desktop/Universidade/Redes/Internet Protocol 1/Relatório/r
+c.tex"
+
+(/Users/joanacruz/Desktop/Universidade/Redes/Internet Protocol 1/Relatório/rc.
+tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/exam/exam.cls
+Document Class: exam 2017/12/17 Version 2.603 by Philip Hirschhorn
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@extrawidth=\skip43
+\@rightmargin=\skip44
+\@extrahead=\skip45
+\@extrafoot=\skip46
+\run@exhd=\skip47
+\fp@exhd=\skip48
+\run@exft=\skip49
+\fp@exft=\skip50
+\covrun@exhd=\skip51
+\covfp@exhd=\skip52
+\covrun@exft=\skip53
+\covfp@exft=\skip54
+\c@num@coverpages=\count88
+\c@latest@ques=\count89
+\c@ques@end=\count90
+\c@last@object=\count91
+\c@incmp@ques=\count92
+\c@next@ques=\count93
+\c@next@page=\count94
+\c@tmp@hlfcntr=\count95
+\c@ifpos@cntr=\count96
+\c@question=\count97
+\c@partno=\count98
+\c@subpart=\count99
+\c@subsubpart=\count100
+\c@choice=\count101
+\c@numpoints=\count102
+\c@numbonuspoints=\count103
+\c@pointsof@thisquestion=\count104
+\c@bonuspointsof@thisquestion=\count105
+\c@numquestions=\count106
+\c@numparts=\count107
+\c@numsubparts=\count108
+\c@numsubsubparts=\count109
+\c@Curr@Page=\count110
+\c@@pagepoints=\count111
+\c@@pagebonuspoints=\count112
+\c@pageof@pagepoints=\count113
+\c@pageof@pagebonuspoints=\count114
+\c@latest@points=\count115
+\c@latest@bonuspoints=\count116
+\pageinfo@commands=\toks14
+\temp@toks=\toks15
+\pagepoint@commands=\toks16
+\point@toks=\toks17
+\c@ques@object=\count117
+\marginpointssep=\skip55
+\rightpointsmargin=\skip56
+\choice@toks=\toks18
+\answerlinelength=\skip57
+\answerskip=\skip58
+\answerclearance=\skip59
+\fillinlinelength=\skip60
+\linefillheight=\skip61
+\linefillthickness=\skip62
+\dottedlinefillheight=\skip63
+\gridsize=\skip64
+\gridlinewidth=\skip65
+\minboxheight=\skip66
+\c@@iterator=\count118
+\@cellwidth=\skip67
+\c@tbl@points=\count119
+\c@tbl@bonuspoints=\count120
+\c@pq@index=\count121
+\c@pq@index@pts=\count122
+\c@pq@index@bpts=\count123
+\c@num@cols=\count124
+\c@num@rows=\count125
+\c@current@row=\count126
+\c@cols@done=\count127
+\exam@box=\box26
+\saved@totalleftmargin=\dimen103
+\@sollistdepth=\count128
+\exam@FrameRule=\dimen104
+\exam@FrameSep=\dimen105
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count129
+\U@D=\dimen106
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count130
+)
+Package babel Info: Making " an active character on input line 145.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+
+Package epstopdf Warning: No graphics package `graphic{s,x}' loaded.
+
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count131
+\FV@InFile=\read1
+\FV@TabBox=\box27
+\c@FancyVerbLine=\count132
+\FV@StepNumber=\count133
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen109
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen110
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count134
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count135
+\leftroot@=\count136
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count137
+\DOTSCASE@=\count138
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count139
+\c@MaxMatrixCols=\count140
+\dotsspace@=\muskip10
+\c@parentequation=\count141
+\dspbrk@lvl=\count142
+\tag@help=\toks23
+\row@=\count143
+\column@=\count144
+\maxfields@=\count145
+\andhelp@=\toks24
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks25
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count146
+\float@exts=\toks27
+\float@box=\box30
+\@float@everytoks=\toks28
+\@floatcapt=\box31
+) (./rc.aux
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@4' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@4' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@5' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `question@4' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@5' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@4' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@5' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+
+LaTeX Warning: Label `fig:controller' multiply defined.
+
+)
+\openout1 = `rc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 22.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count147
+\scratchdimen=\dimen118
+\scratchbox=\box32
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen119
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks30
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
+<topologia.png, id=1, 739.76375pt x 331.2375pt>
+File: topologia.png Graphic file (type png)
+<use topologia.png>
+Package pdftex.def Info: topologia.png  used on input line 37.
+(pdftex.def)             Requested size: 443.86166pt x 198.74402pt.
+
+Overfull \hbox (82.51167pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 47.
+<traceroute.png, id=3, 413.545pt x 70.2625pt>
+File: traceroute.png Graphic file (type png)
+<use traceroute.png>
+Package pdftex.def Info: traceroute.png  used on input line 48.
+(pdftex.def)             Requested size: 330.83644pt x 56.21005pt.
+
+Overfull \hbox (5.78644pt too wide) in paragraph at lines 48--49
+ [][] 
+ []
+
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./topol
+ogia.png> <./traceroute.png>]
+<trafegoicmp.png, id=13, 995.72pt x 578.16pt>
+File: trafegoicmp.png Graphic file (type png)
+<use trafegoicmp.png>
+Package pdftex.def Info: trafegoicmp.png  used on input line 60.
+(pdftex.def)             Requested size: 318.6369pt x 185.01497pt.
+<ifconfig.png, id=14, 574.145pt x 365.365pt>
+File: ifconfig.png Graphic file (type png)
+<use ifconfig.png>
+Package pdftex.def Info: ifconfig.png  used on input line 89.
+(pdftex.def)             Requested size: 287.0718pt x 182.68205pt.
+ [2 <./trafegoicmp.png>]
+<PrimeiraICMP.png, id=21, 860.21375pt x 294.09875pt>
+File: PrimeiraICMP.png Graphic file (type png)
+<use PrimeiraICMP.png>
+Package pdftex.def Info: PrimeiraICMP.png  used on input line 109.
+(pdftex.def)             Requested size: 326.88461pt x 111.75868pt.
+
+Overfull \hbox (1.83461pt too wide) in paragraph at lines 109--110
+ [][] 
+ []
+
+[3 <./ifconfig.png> <./PrimeiraICMP.png>]
+<1Pacote.png, id=28, 785.93625pt x 297.11pt>
+File: 1Pacote.png Graphic file (type png)
+<use 1Pacote.png>
+Package pdftex.def Info: 1Pacote.png  used on input line 125.
+(pdftex.def)             Requested size: 275.0818pt x 103.99005pt.
+<2Pacote.png, id=29, 780.9175pt x 289.08pt>
+File: 2Pacote.png Graphic file (type png)
+<use 2Pacote.png>
+Package pdftex.def Info: 2Pacote.png  used on input line 129.
+(pdftex.def)             Requested size: 273.32521pt x 101.1795pt.
+<3Pacote.png, id=30, 782.925pt x 291.0875pt>
+File: 3Pacote.png Graphic file (type png)
+<use 3Pacote.png>
+Package pdftex.def Info: 3Pacote.png  used on input line 133.
+(pdftex.def)             Requested size: 274.02785pt x 101.88214pt.
+ [4 <./1Pacote.png> <./2Pacote.png> <./3Pacote.png>]
+<1fragmento.png, id=37, 783.92876pt x 388.45125pt>
+File: 1fragmento.png Graphic file (type png)
+<use 1fragmento.png>
+Package pdftex.def Info: 1fragmento.png  used on input line 175.
+(pdftex.def)             Requested size: 274.37918pt x 135.95996pt.
+ [5 <./1fragmento.png>]
+<2fragmento.png, id=42, 783.92876pt x 379.4175pt>
+File: 2fragmento.png Graphic file (type png)
+<use 2fragmento.png>
+Package pdftex.def Info: 2fragmento.png  used on input line 189.
+(pdftex.def)             Requested size: 274.37918pt x 132.79811pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 200.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+
+LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
+(Font)              using `OMS/ptm/m/n' instead
+(Font)              for symbol `textbullet' on input line 200.
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
+LaTeX Font Info:    Font shape `OMS/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 201.
+<ultimofragmento.png, id=43, 786.94pt x 381.425pt>
+File: ultimofragmento.png Graphic file (type png)
+<use ultimofragmento.png>
+Package pdftex.def Info: ultimofragmento.png  used on input line 210.
+(pdftex.def)             Requested size: 275.43312pt x 133.50075pt.
+
+Underfull \vbox (badness 10000) detected at line 213
+ []
+
+[6 <./2fragmento.png>]
+<enderecosEmascaras.png, id=48, 974.64125pt x 744.7825pt>
+File: enderecosEmascaras.png Graphic file (type png)
+<use enderecosEmascaras.png>
+Package pdftex.def Info: enderecosEmascaras.png  used on input line 245.
+(pdftex.def)             Requested size: 467.82248pt x 357.49155pt.
+
+Overfull \hbox (106.47249pt too wide) in paragraph at lines 245--246
+ [][] 
+ []
+
+[7 <./ultimofragmento.png>]
+<conetividadeA.png, id=54, 482.80376pt x 334.24875pt>
+File: conetividadeA.png Graphic file (type png)
+<use conetividadeA.png>
+Package pdftex.def Info: conetividadeA.png  used on input line 262.
+(pdftex.def)             Requested size: 241.40129pt x 167.12396pt.
+<conetividadeB.png, id=55, 482.80376pt x 336.25626pt>
+File: conetividadeB.png Graphic file (type png)
+<use conetividadeB.png>
+Package pdftex.def Info: conetividadeB.png  used on input line 266.
+(pdftex.def)             Requested size: 241.40129pt x 168.12772pt.
+<conetividadeC.png, id=56, 481.8pt x 336.25626pt>
+File: conetividadeC.png Graphic file (type png)
+<use conetividadeC.png>
+Package pdftex.def Info: conetividadeC.png  used on input line 270.
+(pdftex.def)             Requested size: 240.8994pt x 168.12772pt.
+ [8 <./enderecosEmascaras.png>] [9 <./conetividadeA.png> <./conetividadeB.png> 
+<./conetividadeC.png>]
+<conetividadeRext.png, id=67, 485.815pt x 335.2525pt>
+File: conetividadeRext.png Graphic file (type png)
+<use conetividadeRext.png>
+Package pdftex.def Info: conetividadeRext.png  used on input line 278.
+(pdftex.def)             Requested size: 242.9069pt x 167.62584pt.
+<netStatLaptop.png, id=68, 485.815pt x 293.095pt>
+File: netStatLaptop.png Graphic file (type png)
+<use netStatLaptop.png>
+Package pdftex.def Info: netStatLaptop.png  used on input line 292.
+(pdftex.def)             Requested size: 242.9069pt x 146.54713pt.
+<netStatRouter.png, id=69, 484.81125pt x 308.15125pt>
+File: netStatRouter.png Graphic file (type png)
+<use netStatRouter.png>
+Package pdftex.def Info: netStatRouter.png  used on input line 296.
+(pdftex.def)             Requested size: 242.40503pt x 154.07524pt.
+
+Underfull \vbox (badness 10000) detected at line 299
+ []
+
+[10 <./conetividadeRext.png> <./netStatLaptop.png>]
+<processosAnalise.png, id=75, 484.81125pt x 89.33376pt>
+File: processosAnalise.png Graphic file (type png)
+<use processosAnalise.png>
+Package pdftex.def Info: processosAnalise.png  used on input line 306.
+(pdftex.def)             Requested size: 242.40503pt x 44.66676pt.
+<processosAnalise1.png, id=76, 488.82625pt x 129.48375pt>
+File: processosAnalise1.png Graphic file (type png)
+<use processosAnalise1.png>
+Package pdftex.def Info: processosAnalise1.png  used on input line 312.
+(pdftex.def)             Requested size: 244.41252pt x 64.7417pt.
+<delete.png, id=77, 485.815pt x 337.26pt>
+File: delete.png Graphic file (type png)
+<use delete.png>
+Package pdftex.def Info: delete.png  used on input line 325.
+(pdftex.def)             Requested size: 242.9069pt x 168.62958pt.
+ [11 <./netStatRouter.png> <./processosAnalise.png> <./processosAnalise1.png>]
+<add.png, id=84, 485.815pt x 340.27126pt>
+File: add.png Graphic file (type png)
+<use add.png>
+Package pdftex.def Info: add.png  used on input line 335.
+(pdftex.def)             Requested size: 242.9069pt x 170.13521pt.
+<pingL3.png, id=85, 487.8225pt x 333.245pt>
+File: pingL3.png Graphic file (type png)
+<use pingL3.png>
+Package pdftex.def Info: pingL3.png  used on input line 344.
+(pdftex.def)             Requested size: 243.91064pt x 166.62209pt.
+<pingRa.png, id=86, 484.81125pt x 333.245pt>
+File: pingRa.png Graphic file (type png)
+<use pingRa.png>
+Package pdftex.def Info: pingRa.png  used on input line 348.
+(pdftex.def)             Requested size: 242.40503pt x 166.62209pt.
+
+Underfull \vbox (badness 6268) detected at line 351
+ []
+
+[12 <./delete.png> <./add.png>]
+<novaRede.png, id=92, 931.48pt x 726.715pt>
+File: novaRede.png Graphic file (type png)
+<use novaRede.png>
+Package pdftex.def Info: novaRede.png  used on input line 375.
+(pdftex.def)             Requested size: 447.10532pt x 348.81923pt.
+
+Overfull \hbox (85.75533pt too wide) in paragraph at lines 375--376
+ [][] 
+ []
+
+[13 <./pingL3.png> <./pingRa.png>]
+<conAeB.png, id=99, 485.815pt x 336.25626pt>
+File: conAeB.png Graphic file (type png)
+<use conAeB.png>
+Package pdftex.def Info: conAeB.png  used on input line 394.
+(pdftex.def)             Requested size: 242.9069pt x 168.12772pt.
+<conAec.png, id=100, 484.81125pt x 337.26pt>
+File: conAec.png Graphic file (type png)
+<use conAec.png>
+Package pdftex.def Info: conAec.png  used on input line 398.
+(pdftex.def)             Requested size: 242.40503pt x 168.62958pt.
+<conBeC.png, id=101, 484.81125pt x 338.26375pt>
+File: conBeC.png Graphic file (type png)
+<use conBeC.png>
+Package pdftex.def Info: conBeC.png  used on input line 402.
+(pdftex.def)             Requested size: 242.40503pt x 169.13145pt.
+
+Underfull \vbox (badness 10000) detected at line 406
+ []
+
+[14 <./novaRede.png>] [15 <./conAeB.png> <./conAec.png> <./conBeC.png>]
+[16]
+This exam contains 29 questions with 0 parts, 0 subparts, and 0 subsubparts.
+(./rc.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4481 strings out of 492649
+ 61893 string characters out of 6129622
+ 148235 words of memory out of 5000000
+ 8265 multiletter control sequences out of 15000+600000
+ 34859 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,9n,23p,394b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on rc.pdf (16 pages, 784794 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+

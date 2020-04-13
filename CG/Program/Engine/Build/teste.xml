@@ -1,0 +1,9 @@
+<scene>
+	<group>
+		<color G=0.4 B=0.8/>
+		<scale X=20 Y=20 Z=20/>
+		<models>
+			<model file="sphere.3d" texture="sun.jpg"/>
+		</models>
+	</group>
+</scene>

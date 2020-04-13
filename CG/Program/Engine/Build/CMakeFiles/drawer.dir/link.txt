@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/drawer.dir/engine.cpp.o CMakeFiles/drawer.dir/Group.cpp.o CMakeFiles/drawer.dir/Vertex.cpp.o CMakeFiles/drawer.dir/Model.cpp.o CMakeFiles/drawer.dir/parser.cpp.o  -o drawer /usr/local/lib/libIL.dylib -framework OpenGL -framework GLUT -framework Cocoa 

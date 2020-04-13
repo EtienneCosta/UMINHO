@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="AnchorPane" prefHeight="347.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dssconfigurator.camadaApresentacao.DetalhesEncomendaController">
+   <children>
+      <AnchorPane prefHeight="89.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="99.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="130.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMW ConfiguraFácil" wrappingWidth="231.552734375">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Line endX="586.0" endY="0.5" layoutX="14.0" layoutY="97.0" startX="-28.707107543945312" startY="0.5" strokeWidth="2.0" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="212.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modelo " wrappingWidth="53.291011810302734">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="idModelo" layoutX="265.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="123.00000002784964" />
+      <ComboBox fx:id="componentesBase" layoutX="212.0" layoutY="161.0" prefHeight="25.0" prefWidth="177.0" promptText="Componentes Base" />
+      <ComboBox fx:id="componentesExtra" layoutX="212.0" layoutY="202.0" prefHeight="25.0" prefWidth="177.0" promptText="Componentes Extra" />
+      <ComboBox fx:id="Pacotes" layoutX="212.0" layoutY="240.0" prefHeight="25.0" prefWidth="177.0" promptText="Pacotes" />
+      <ImageView fitHeight="70.0" fitWidth="60.0" layoutX="29.0" layoutY="273.0" onMouseClicked="#backController" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/back.png" />
+         </image>
+      </ImageView>
+   </children>  
+</Pane>

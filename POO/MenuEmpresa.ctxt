@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MenuEmpresa
+comment1.params=contribuintes
+comment1.target=MenuEmpresa(GestaoContribuintes)
+comment2.params=e
+comment2.target=void\ menuEmpresa(Empresa)
+comment3.params=e
+comment3.target=void\ emiteFactura(Empresa)
+comment4.params=e
+comment4.target=void\ listaFacturasIntervalo(Empresa)
+comment5.params=e
+comment5.target=void\ listaFacturas(Empresa)
+comment6.params=e
+comment6.target=void\ listaFacturasValor(Empresa)
+comment7.params=e
+comment7.target=void\ totalFacturado(Empresa)
+numComments=8

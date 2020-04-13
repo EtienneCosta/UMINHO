@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dssconfigurator.camadaApresentacao.StockViewController">
+   <children>
+      <AnchorPane prefHeight="89.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="99.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="127.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMW ConfiguraFácil" wrappingWidth="231.552734375">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Line endX="586.0" endY="0.5" layoutX="14.0" layoutY="97.0" startX="-28.707107543945312" startY="0.5" strokeWidth="2.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="procuraComp" layoutX="32.0" layoutY="112.0" prefHeight="28.0" prefWidth="190.0" promptText="ID" />
+      <TableView fx:id="tbStock" layoutX="32.0" layoutY="161.0" prefHeight="200.0" prefWidth="538.0">
+        <columns>
+          <TableColumn fx:id="idComponent" prefWidth="92.00002670288086" text="Id" />
+          <TableColumn fx:id="nameComponent" minWidth="0.0" prefWidth="92.66666412353516" text="Name" />
+            <TableColumn fx:id="descriptionComponent" prefWidth="96.6666259765625" text="Description" />
+            <TableColumn fx:id="categoryComponent" minWidth="0.0" prefWidth="102.6666259765625" text="Category" />
+            <TableColumn fx:id="stockComponent" minWidth="0.0" prefWidth="75.3333740234375" text="Stock" />
+            <TableColumn fx:id="priceComponent" minWidth="0.0" prefWidth="75.99996948242188" text="Price" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="234.0" layoutY="114.0" onMouseClicked="#searchComponente" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="265.0" layoutY="114.0" onMouseClicked="#changeStock" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/update.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="60.0" layoutX="32.0" layoutY="370.0" onMouseClicked="#backController" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/back.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

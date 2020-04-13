@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Habitacao
+comment0.text=\n\ Subclasse\ de\ Actividade\:\ Transportes\n
+comment1.params=
+comment1.target=Habitacao()
+comment1.text=Construtor\ por\ Omiss\u00E3o
+comment2.params=o
+comment2.target=Habitacao(Habitacao)
+comment2.text=Construtor\ de\ c\u00F3pia
+comment3.params=
+comment3.target=Habitacao\ clone()
+numComments=4

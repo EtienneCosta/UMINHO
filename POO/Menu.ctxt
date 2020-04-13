@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Menu
+comment1.params=
+comment1.target=GestaoContribuintes\ getContribuintes()
+comment2.params=
+comment2.target=void\ inicial()
+comment3.params=
+comment3.target=void\ exit()
+comment4.params=
+comment4.target=void\ login()
+comment5.params=
+comment5.target=void\ registarContribuinte()
+comment6.params=
+comment6.target=void\ registarIndividual()
+comment7.params=
+comment7.target=void\ registarEmpresa()
+comment8.params=cont
+comment8.target=void\ guarda(GestaoContribuintes)
+comment9.params=
+comment9.target=GestaoContribuintes\ carrega()
+numComments=10

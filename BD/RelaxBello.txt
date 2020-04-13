@@ -1,0 +1,219 @@
+group: LivrariaBello
+
+Cliente = {
+	idCliente:number, Nome:string, DataNascimento:date, Localidade:string, Rua:string, Cep:string, Telefone:number, Email:string
+		1, 'Anabela Franqueira Alves Rodrigues', 1963-01-24, 'Matosinhos' , 'Avenida Meneres nº234 Bloco 8 1ºesquerdo', '4715-292 Porto',   '916275555' ,  'anabela.a.alves@gmail.com'
+		2, 'Marisa Tatiana Morais de Picao', 	    1994-08-07, 'Vila Nova de Gaia', 		'Avenida das Poias nº12 2ºdireito', '4450-189 Porto',   '916473543' ,  'marisamorais@gmail.com'
+		3, 'Rita Maria Ferreira', 1996-05-18, 'Lisboa', 				'Rua do Canudo nº15 1ºdireito', '3456-133 Lisboa',  '911139494' ,  'ritaferreira@gmail.com'
+		4, 'Luís Filipe Pereira Machado', 		    1962-01-07, 'Coimbra', 				'Praceta João Beltrão nº12 4ºesq. frente', '3923-456 Coimbra', '935072034' , 'lfpm1962@gmail.com'
+		5, 'Daniela Costa Martins Coimbra e Cruz', 1989-04-16, 'Faro' , 					'Rua da Baixada Porta 8', '4715-123 Algarve', '911901514' ,  'danielacruz94@gmail.com'
+		6, 'Inês Gonçalves Barros',			 	1994-01-26, 'Braga', 					'Rua Maria Feliciana nº130 2ºesq. frente', '4715-234 Braga',   '916808958' ,  'ines_barros@gmail.com'
+		7, 'Mariana Rosário de Matos Araújo', 		1994-07-05, 'Aveiro', 				'Rua Luís de Camões nº27 5ºesq. trás', '4715-456 Aveiro',  '917645367',   'mariana_araujo@gmail.com'
+		8, 'Tiago Filipe Fernardes Vilaça', 		1987-10-04, 'Vila Nova de Famalicão', 'Rua da Palmeira nº9 1ºesquerdo', '4715-678 Braga',   '917564297' ,  'tffv_1994@gmail.com'
+		9, 'Pedro Miguel Marinho Almeida', 		1993-04-15, 'Leça da Palmeira', 		'Rua da Igreja nº13','4715-789 Porto',   '917283647' ,  'impiglet@gmail.com'
+		10, 'João Carlos Farelo Marta da Cruz', 	1964-01-12, 'São Vítor', 				'Rua Maria de Sousa nº4 4ºesq. trás','4715-148 Braga',   '912749675' ,  'joaomcruz@gmail.com'
+		11, 'Ana Sofia Franqueira Marta da Cruz', 	1996-07-17, 'Matosinhos', 			'Rua das Forças Armadas nº8 2ºesq. trás', '4450-194 Porto',   '934678278',   'anasofia_Cruz@gmail.com'
+		12, 'Cátia Franqueira Marta da Cruz',		1991-01-12, 'Porto', 					'Rua do Pinheiro nº200 2ºesq. frente','4450-106 Porto',   '934585619',   'catiacruz_1991@gmail.com'
+		13, 'António Gonçalves da Costa Gomes',	1992-08-23, 'Braga', 					'Rua São José nº1 2ºesq. trás','4450-183 Braga',   '936281967' ,  'ozil_gomes@gmail.com'
+		14, 'Nuno André Morais Ribeiro', 			1991-03-29, 'Lisboa', 				'Rua Almeida Garret nº15 2ºandar','4450-185 Lisboa',  '912637486',   'nunoandre91@gmail.com'
+		15, 'Margarida da Silva Ferreira', 		1983-06-17, 'Faro', 					'Rua do Caixo nº18 7ºfrente','4450-190 Faro',    '934728917' ,  'guidaferreira@gmail.com'
+}
+
+Funcionario = {
+	idFuncionario:number, Nome:string, DataNascimento:date, Localidade:string, Rua:string, Cep:string, Telefone:string, Vencimento:number, Email:string
+		1, 'Maria da Conceição Cruz',1963-01-24, 'Matosinhos' , 'Avenida Meneres nº234 Bloco 8 1ºesquerdo', '4715-292 Porto',  '916275555' , 1000, 'mariacruz@gmail.com'
+
+		2, 'Beatriz Silva Vilaça', 			1994-08-07, 'Vila Nova de Gaia', 		'Avenida das Poias nº12 2ºdireito','4450-189 Porto',  '916473543',  950.50, 'beatrizvilaça@gmail.com'
+
+		3, 'Beatriz Costa Ferreira', 			1996-05-18,'Lisboa', 					'Rua do Canudo nº15 1ºdireito', '3456-133 Lisboa',  '911139494', 700.50, 'beatrizcosta@gmail.com'
+
+		4, 'Alexandra Sousa de Carvalho', 		1962-01-07, 'Coimbra', 				'Praceta João Beltrão nº12 4ºesq. frente', '3923-456 Coimbra', '935072034', 450.50, 'alex_carvalho@gmail.com'
+		
+		5, 'João Miguel Couto',				1989-04-16, 'Faro' , 					'Rua da Baixada Porta 8', '4715-123 Algarve', '911901514', 1000, 'joaocouto@gmail.com'
+		6, 'José Pedro Carvalho',				1994-01-26, 'Braga', 					'Rua Maria Feliciana nº130 2ºesq. frente', '4715-234 Braga',   '916808958', 450.50, 'zecarvalho@gmail.com'
+		7, 'André Maria Gonçalves', 			1994-07-05, 'Aveiro', 				'Rua Maria Feliciana nº130 2ºesq. frente', '4715-456 Aveiro',  '917645367', 1000, 'amg_1994@gmail.com'
+		8, 'Leonardo Teixeira Fangueiro', 		1987-10-04, 'Vila Nova de Famalicão', 'Rua Maria Feliciana nº130 2ºesq. frente','4715-678 Braga',   '917564297', 950.50, 'leo_fangueiro@gmail.com'
+		9, 'Eduardo Nova Silva', 				1993-04-15, 'Leça da Palmeira',       'Rua da Igreja nº13','4715-789 Porto',   '917283647', 700.50, 'eduardosilva@gmail.com'
+		10, 'Maria João Coutinho', 			1964-01-12, 'São Vítor', 				'Rua Maria de Sousa nº4 5ºesq. frente','4715-148 Braga',   '912749675', 1000, 'mariacoutinho@gmail.com'
+		11, 'João Eduardo Ferreira', 			1996-07-17, 'Matosinhos', 			'Rua das Forças Armadas nº8 2ºesq. frente', '4450-194 Porto',   '934678278', 950.50, 'joaoferreira@gmail.com'
+		12, 'André Pereira Marques',			1991-01-12, 'Porto', 					'Rua do Pinheiro nº200 2ºesq. frente','4450-106 Porto',   '934585619', 700.50, 'andremarques_1991@gmail.com'
+		13, 'Rogério Gomes Moreira',			1992-08-23, 'Braga', 					'Rua São José nº1 2ºesq. trás','4450-183 Braga',   '936281967', 450.50, 'rogerio_gomes@gmail.com'
+		14, 'Samuel Gonçalves Ferreira', 		1991-03-29, 'Lisboa', 				'Rua Almeida Garret nº15 2ºandar','4450-185 Lisboa',  '912637486', 950.50, 'samu_ferreira@gmail.com'
+		15, 'Tiago Filipe Sá', 				1983-06-17, 'Faro', 					'Rua do Caixo nº18 7ºfrente','4450-190 Faro',    '934728917', 700.50, 'tiagofilipesa@gmail.com'
+		16, 'Ricardo Manuel de Sousa e Pinto', 1963-01-24, 'Matosinhos' , 			'Avenida Meneres nº234 Bloco 8 1ºesquerdo', '4715-292 Porto',   '916275555', 1000, 'ricardopinto@gmail.com'
+		17, 'Pedro Miguel Barroso', 			1994-08-07, 'Vila Nova de Gaia', 		'Avenida das Poias nº12 2ºdireito', '4450-189 Porto',   '916473543', 700.50, 'pedrobarroso@gmail.com'
+		18, 'Nuno Rosário dos Reis', 			1996-05-18, 'Lisboa', 				'Rua do Canudo nº15 1ºdireito', '3456-133 Lisboa',  '911139494', 950.50, 'nuno_reis@gmail.com'
+		19, 'Liliana de Castro Pereira', 		1962-01-07, 'Coimbra', 				'Praceta João Beltrão nº12 4ºesq. frente', '3923-456 Coimbra', '935072034', 450.50, 'lilianapereira1@gmail.com'
+		20, 'Nuno Bento Armada',				1989-04-16, 'Faro' , 					'Rua da Baixada Porta 8', '4715-123 Algarve', '911901514', 1000, 'nunoarmada89@gmail.com'
+		21, 'Mariana Fernandes de Brito',		1994-01-26, 'Braga', 					'Rua Maria Feliciana nº130 2ºesq. frente', '4715-234 Braga',   '916808958', 950.50, 'marianabrito94@gmail.com'
+		22, 'Marcelo Filipe Lima', 			1994-07-05, 'Aveiro', 				'Rua Maria Feliciana nº130 2ºesq. frente', '4715-456 Aveiro',  '917645367', 700.50, 'marcelolima94@gmail.com'
+		23, 'Paulo Castro de Freitas', 		1987-10-04, 'Vila Nova de Famalicão', 'Rua Maria Feliciana nº130 2ºesq. frente','4715-678 Braga',   '917564297', 450.50, 'paulofreitas@gmail.com'
+		24, 'Luis Leite Ferraz', 				1993-04-15, 'Leça da Palmeira', 		'Rua da Igreja nº13','4715-789 Porto',   '917283647', 950.50, 'luisferraz@gmail.com'
+		25, 'José Gomes da Cunha', 			1964-01-12, 'São Vítor', 				'Rua Maria de Sousa nº4 5ºesq. frente','4715-148 Braga',   '912749675', 700.50, 'josedacunha@gmail.com'
+		26, 'João Miguel Amorim Fernandes', 	1996-07-17, 'Matosinhos', 			'Rua das Forças Armadas nº8 2ºesq. frente', '4450-194 Porto',   '934678278', 950.50, 'joaoamorim@gmail.com'
+		27, 'Joana Maria Feijó',				1991-01-12, 'Porto', 					'Rua do Pinheiro nº200 2ºesq. frente','4450-106 Porto',   '934585619', 1000, 'joanafeijo@gmail.com'
+		28, 'Inês Guerreiro Vasconcelos',		1992-08-23, 'Braga', 					'Rua São José nº1 2ºesq. trás','4450-183 Braga',   '936281967', 950.50, 'inesvasconcelos@gmail.com'
+		29, 'Fábio Vieira Mendes', 			1991-03-29, 'Lisboa', 				'Rua Almeida Garret nº15 2ºandar','4450-185 Lisboa',  '912637486', 450.50, 'fabiomendes91@gmail.com'
+		30, 'Bruna Carvalho Cardoso', 			1983-06-17, 'Faro', 					'Rua do Caixo nº18 7ºfrente','4450-190 Faro', '934728917', 1000, 'brunacardoso@gmail.com'
+}
+
+Escritor = {
+	idEscritor:number, Nome:string, Nacionalidade:string, DataNascimento:date, Biografia:string
+		1,'Jorge Amado','Brasileiro',1912-08-10, NULL
+		2,'Paulo Coelho','Brasileiro',1947-08-24, NULL
+		3,'José Saramago','Português',1922-11-16, NULL
+		4,'Eça de Queiroz','Português',1845-11-25, NULL
+		5,'Fiódor Dostoiévski','Russo',1821-10-30, NULL
+		7,'Augusto Cury','Brasileiro',1958-10-02, NULL
+		8,'José Bernado Barros','Português',1965-05-22, NULL
+		9,'Henry Miller','Norte Americano',1891-12-26, NULL
+		10,'Charles Dickens','Britânico',1812-02-07, NULL
+		11,'Machado de Assis','Brasileiro',1839-06-21, NULL
+		12,'Michel de Montaigne','Francês',1533-02-28, NULL
+		13,'Joanne Murray','Britânica',1965-07-31, NULL
+		14,'Stephen King','Norte Americano',1947-09-21, NULL
+		15,'Pepetela','Angolano',1941-10-29, NULL
+		16,'Mia Couto','Moçambicano',1955-07-05,NULL
+}
+
+Categoria = {
+	idCategoria:number, Genero:string
+		1, 'Romance'
+    2, 'Ficção'
+    3, 'Thriller'
+    4, 'Infantil'
+    5, 'Aventura'
+    6, 'Filosofia'
+    7, 'Ensaios'
+    8, 'Drama'
+    9, 'História'
+    10, 'Educação'
+    11, 'Outros'
+}
+
+Livro = {
+	Isbn:number, Titulo:string, Editora:string, Edicao:string, Ano:number, Categoria:number, Stock:number, Paginas:number, Preco:number, Idioma:string, Escritor:number
+		1,'Sua Excelência de Corpo Presente','Dom Quixote',9,2018,1,15,272,15.21,'Português',15
+		2,'Parábola do Cágado velho','Dom Quixote',12,2006,1,13,160,13.90,'Português',15
+		3,'Se o Passado Não Tivesse Asas','Dom Quixote',5,2016,1,10,384,18.90,'Português',15
+		4,'A Montanha da Água Lilas','Bis',1,2009,1,20,160,5.95,'Português',15
+		5, 'A Confissão da Leoa', 'Editorial Caminho' , 4 , 2012 ,1,25, 272, 12.90 ,'Português',16
+		6, 'O Beijo da Palavrinha', 'Editorial Caminho' , 11 , 2008 ,2,30, 32, 12.90 ,'Português',16
+		7, 'Mar Me Quer', 'Editorial Caminho' , 9 , 2012 ,1,7, 72, 9.90 ,'Português',16
+		8, 'A Varanda do Frangipani', 'Editorial Caminho' , 4 , 2000 ,1,10, 154, 12.90 ,'Português',16
+		9, 'IT', 'HODDER & STOUGHTON GENERAL DIVISION' , 5 , 2011 ,3,45, 1184, 13.28 ,'Inglês',14
+		10, 'The Shining', '11X17' , 1 , 2017 ,3,33, 632, 11.00 ,'Inglês',14
+		11, 'Elevation', 'HODDER & STOUGHTON GENERAL DIVISION' , 10 , 2018 ,3,20, 160, 16.30 ,'Inglês',14
+		12, 'Sr.Mercedes', 'Bertrand Editora' , 3 , 2017 ,3,5, 472, 18.80 ,'Português',14
+		13, 'Fantastic Beasts: The Crimes Of Grindelwald', 'Little,Brown Book Group' , 11 , 2018 ,5,13,304, 15.96, 'Inglês',13
+		14, 'Harry Potter e a Pedra Filosofal', 'Editorial Presença' , 4 , 2002 ,4,10,260, 15.90 ,'Português',13
+		15, 'Uma Morte Súbita', 'Editorial Presença' , 11 , 2012 ,1,15,496, 22.90 ,'Português',13
+		16, 'Fantastic Beasts And Where To Find Them', 'Little,Brown Book Group' , 7 , 2018 ,5,5,304, 8.69, 'Inglês',13
+		17, 'Dictionnaire DE Michek De Montaigne', 'Classiques Garnier' , 11 , 2018 ,11,15,2000, 56.10,'Francês',12
+		18, 'Essais', 'Gallimard' , 9 , 2009 ,1,20,10, 27.91 ,'Francês',12
+		19, 'Vivre à Propos', 'Flammarion' , 3 , 2009 ,6,7,256, 24.17 ,'Francês',12
+		20, 'Ensaios-Antologia', 'Relógio D Água', 4 , 1998 ,7,3,336, 32.72 ,'Português',12
+		21, 'O Alienista', 'Porto Editora' , 10 , 2017 ,4,20,112, 8.80 ,'Português',11
+		22, 'Dom Casmurro', 'BIS' , 3 , 2013 ,1,10,320, 7.50 ,'Português',11
+		23, 'Casa Velha', 'Narrativa' , 6 , 2018 ,1,5,128, 10.80 ,'Português',11
+		24, 'Memórias Póstumas de Brás Cubas', 'Relógio D Água' , 02 , 2017 ,8,15,232, 10.00 ,'Português',11
+		25, 'Oliver Twist', 'Engage Books' , 11 , 2018 ,2,20,400, 48.29 ,'Inglês',10
+		26, 'The Old Curiosity Shop', 'Engage Books' , 11 , 2018 ,2,9,508, 54.32 ,'Inglês',10
+		27, 'A Tale of Two Cities', 'Engage Books' , 11 , 2018 ,2,11,344, 54.32 ,'Inglês',10
+		28, 'Hard Times', 'Engage Books' , 11 , 2018 ,2,9,252, 54.32 ,'Inglês',10
+		29, 'Essays On Fielding Miscellanies', 'Princeton University Press' , 8 , 2018 ,9,24,490, 142.47,'Inglês',9
+		30, 'Sexus', 'PENGUIN BOOKS LTD' , 8 , 2015 ,2,5,512, 12.07 ,'Inglês',9
+		31, 'Plexus', 'PENGUIN BOOKS LTD' , 8 , 2015 ,2,9,528, 12.07 ,'Inglês',9
+		32, 'Tropic Of Cancer', 'PENGUIN BOOKS LTD' , 6 , 2015 ,2,9,272, 12.07 ,'Inglês',9
+		33, 'Fundamentos da Computação :Programação Funcional', 'PENGUIN BOOKS LTD' , 2 , 2015 ,10,32,100, 25.00, 'Português',8
+		34, 'O Homem Mais Feliz da História', 'Pergaminho' , 10 , 2018 ,1,15,336, 14.94 ,'Português',7
+		35, 'Pais Brilhantes,Professores Fascinantes', 'Pergaminho' , 4 , 2004 ,10,14,176, 13.30 ,'Português',7
+		36, 'Crime And Punishment', 'PENGUIN BOOKS LTD' , 1 , 2003 ,2,9,720, 9.66 ,'Inglês',5
+		37, 'O Jogador', 'Editorial Presença' , 4 , 2001 ,1,3,168, 12.90 ,'Inglês',5
+		38, 'Os Maias', 'Livros do Brasil' , 8 , 2017 ,1,50,736, 11.10 ,'Português',4
+    39, 'Memorial do Convento', 'Porto Editora' , 1 , 2018 ,1,30,402, 17.70 ,'Português',3
+		40, 'Ensaio sobre a Cegueira', 'Porto Editora' , 7 , 2018 ,1,10,272, 15.93 ,'Português',3
+		41, 'O Alquimista', '11X17' , 10 , 2013 ,1,12,200, 8 ,'Português',2
+		42, 'A Espia', 'Pergaminho' , 9 , 2016 ,1,2,184, 15.50 ,'Português',2
+		43, 'Capitães da Areia', 'BIS' , 1 , 2009 ,1,6,208, 7.50 ,'Português',1
+    44, 'Gabriela,Cravo e Canela', 'BIS' , 10 , 2018 ,1,12,464, 8.96 ,'Português',1
+}
+
+Venda = {
+	idVenda:number, Data:date, Funcionario:number, Cliente:number
+		1, 2011-03-22, 1, 3
+		2, 2011-03-22, 1, 12
+		3, 2011-03-22, 1, 10
+		4, 2011-03-22, 2, 14
+		5, 2011-05-10, 2, 1
+		6, 2011-05-11, 2, 13
+		7, 2011-05-11, 2, 2
+		8, 2011-05-22, 3, 8
+		9, 2011-11-11, 3, 10
+		10, 2011-12-01, 9, 15
+		11, 2013-01-02, 30, 11
+		12, 2013-03-22, 30, 5
+		13, 2013-03-22, 30, 3
+		14, 2013-03-22, 30, 14
+		15, 2014-09-08, 23, 7
+		16, 2014-11-13, 26, 14
+		17, 2014-11-17, 17, 1
+		18, 2015-01-19, 27, 1
+		19, 2015-02-14, 1, 3
+		20, 2015-02-15, 7, 1
+		21, 2015-06-12, 19, 15
+		22, 2015-06-12, 19, 14
+		23, 2016-07-06, 1, 6
+		24, 2016-07-17, 1, 6
+		25, 2016-08-16, 1, 14
+		26, 2016-10-09, 30, 1
+		27, 2017-04-03, 30, 9
+		28, 2017-04-22, 20, 4
+		29, 2018-08-22, 21, 14
+		30, 2018-08-22, 21, 2
+}
+
+LivroVenda = {
+	Livro:number, Venda:number, Quantidade:number, Preco:number
+		1,1,3,  15.21
+		2, 1,2, 13.90
+		1, 2,1, 15.21
+		2, 2,3, 13.90
+		44,2,2, 8.96
+		7, 3,2, 9.90
+		8, 4,1, 12.90
+		9, 4,4, 13.28
+		9, 5,4, 13.28
+		11,6,1, 16.30
+		23,6,1, 10.80
+		23,7,2, 10.80
+		27,8,3, 54.32
+		28,8,1, 54.32	
+		29,8,13,142.47
+		29,9,1, 142.47
+		29,10,1,142.47
+		33,11,1,25.00
+		33,12,5,25.00
+		39,12,2,17.70
+		40,13,4,15.93 
+		41,14,6,8
+		42,14,1,15.50
+		44,15,3,8.96
+		1,16,4, 15.21
+		19,16,5,24.17
+		1,17,1, 15.21
+		1,18,1, 15.21
+		1,19,1, 15.21
+		23,19,1,10.80
+		34,20,2, 14.94
+		36,21,7, 9.66
+		10,22,6,11.00
+		24,23,4, 10.00
+		16,24,4, 8.69
+		35,25,1, 13.30
+		26,26,4, 54.32
+		44,27,5, 8.96
+		1,28,1, 15.21
+		1,29,1, 15.21
+		1,30,2, 15.21
+}

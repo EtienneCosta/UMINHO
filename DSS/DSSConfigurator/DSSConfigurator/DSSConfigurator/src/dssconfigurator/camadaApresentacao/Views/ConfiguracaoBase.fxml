@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dssconfigurator.camadaApresentacao.ConfiguracaoBaseController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="89.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="99.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/logo.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="132.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMW ConfiguraFácil" wrappingWidth="231.552734375">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Line endX="586.0" endY="0.5" layoutX="14.0" layoutY="97.0" startX="-28.707107543945312" startY="0.5" strokeWidth="2.0" />
+         </children>
+      </AnchorPane>
+      <ComboBox fx:id="motor" layoutX="40.0" layoutY="120.0" prefHeight="27.0" prefWidth="254.0" promptText="Motor" />
+      <ImageView fx:id="modeloEscolhido" fitHeight="99.0" fitWidth="214.0" layoutX="342.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/cosySec%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="342.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço do veículo: " wrappingWidth="112.99999286234379">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="avancarButton" layoutX="463.0" layoutY="293.0" mnemonicParsing="false" onMouseClicked="#nextController" prefHeight="35.0" prefWidth="102.0" text="Avançar" />
+      <Button fx:id="voltarButton" layoutX="463.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#backController" prefHeight="35.0" prefWidth="102.0" text="Voltar" />
+      <ComboBox fx:id="transmissao" layoutX="40.0" layoutY="165.0" prefHeight="27.0" prefWidth="254.0" promptText="Transmissão" />
+      <ComboBox fx:id="cor" layoutX="40.0" layoutY="210.0" prefHeight="27.0" prefWidth="254.0" promptText="Cor" />
+      <ComboBox fx:id="estofo" layoutX="40.0" layoutY="255.0" prefHeight="27.0" prefWidth="254.0" promptText="Estofo" />
+      <ComboBox fx:id="tejadilho" layoutX="40.0" layoutY="301.0" prefHeight="27.0" prefWidth="254.0" promptText="Cor do tejadilho" />
+      <ComboBox fx:id="jantes" layoutX="40.0" layoutY="344.0" prefHeight="27.0" prefWidth="254.0" promptText="Jantes" />
+      <Label fx:id="priceModel" layoutX="463.0" layoutY="229.0" prefHeight="19.0" prefWidth="102.0" />
+   </children>
+</Pane>

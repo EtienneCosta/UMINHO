@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Indefinida
+comment0.text=\n\ Subclasse\ de\ Actividade\:\ Indefinida\n
+comment1.params=
+comment1.target=Indefinida()
+comment1.text=Construtor\ por\ Omiss\u00E3o
+comment2.params=i
+comment2.target=Indefinida(Indefinida)
+comment2.text=Construtor\ de\ c\u00F3pia
+comment3.params=
+comment3.target=Indefinida\ clone()
+numComments=4

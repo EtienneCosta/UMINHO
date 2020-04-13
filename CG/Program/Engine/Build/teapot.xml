@@ -1,0 +1,18 @@
+<scene>
+	<group>
+		<color R=1 G=0.2 B=0.2/>
+		<translate time=25>
+			<point X=17 Y=0 Z=0/>
+			<point X=12.021 Y=0 Z=-12.021/>
+			<point X=0 Y=0 Z=-17/>
+			<point X=-12.021 Y=0 Z=-12.021/>
+			<point X=-17 Y=0 Z=0/>
+			<point X=-12.021 Y=0 Z=12.021/>
+			<point X=0 Y=0 Z=17/>
+			<point X=12.021 Y=0 Z=12.021/>
+		</translate>
+		<models>
+			<model file="teapot.3d"/>
+		</models>
+	</group>
+</scene>

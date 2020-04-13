@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MenuIndividual
+comment1.params=contribuintes
+comment1.target=MenuIndividual(GestaoContribuintes)
+comment2.params=i
+comment2.target=void\ menuIndividual(Individual)
+comment3.params=i
+comment3.target=void\ listaDespesas(Individual)
+comment4.params=i\ c
+comment4.target=void\ validaFacturas(Individual,\ GestaoContribuintes)
+comment5.params=e\ f
+comment5.target=Actividade\ escolheActividade(Empresa,\ Factura)
+comment6.params=i\ c
+comment6.target=void\ corrigeActividade(Individual,\ GestaoContribuintes)
+comment7.params=i
+comment7.target=void\ listaDeducoes(Individual)
+numComments=8

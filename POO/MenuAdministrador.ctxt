@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MenuAdministrador
+comment1.params=contribuintes
+comment1.target=MenuAdministrador(GestaoContribuintes)
+comment2.params=
+comment2.target=void\ menuAdministrador()
+comment3.params=cont
+comment3.target=void\ listaContribuinte(GestaoContribuintes)
+comment4.params=cont
+comment4.target=void\ maisGastamSistema(GestaoContribuintes)
+comment5.params=cont
+comment5.target=void\ maisFacturamSistema(GestaoContribuintes)
+comment6.params=cont
+comment6.target=void\ guarda(GestaoContribuintes)
+comment7.params=
+comment7.target=GestaoContribuintes\ carrega()
+numComments=8

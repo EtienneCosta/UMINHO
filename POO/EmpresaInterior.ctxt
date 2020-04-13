@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=EmpresaInterior
+comment1.params=
+comment1.target=EmpresaInterior()
+comment1.text=Construtor\ por\ omiss\u00E3o\ da\ classe\ EmpresaInterior
+comment2.params=nif\ email\ nome\ morada\ password\ actividades\ factor\ f
+comment2.target=EmpresaInterior(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.List,\ double,\ java.util.Set)
+comment2.text=Construtor\ parametrizado\ da\ classe\ EmpresaInteriror
+comment3.params=e
+comment3.target=EmpresaInterior(EmpresaInterior)
+comment3.text=Construtor\ de\ c\u00F3pia\ da\ classe\ EmpresaInterior
+comment4.params=o
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=M\u00E9todo\ equals
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=M\u00E9todo\ toString
+comment6.params=
+comment6.target=EmpresaInterior\ clone()
+comment6.text=M\u00E9todo\ clone
+comment7.params=
+comment7.target=double\ reducaoImposto()
+comment7.text=M\u00E9todo\ que\ reduz\ os\ imposto\ a\ uma\ empresa\ do\ interior
+numComments=8

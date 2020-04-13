@@ -1,0 +1,28 @@
+<scene>
+	<group>
+		<color G=0.4 B=0.8/>
+        <translate X=-10/>
+		<scale X=1 Y=1 Z=1/>
+		<models>
+			<model file="sphere.3d"/>
+		</models>
+	</group>
+    <group>
+		<color R=0.37 G=0.37 B=0.37/>
+        <rotate angle=-90 axisZ=1/>
+		<translate Y=-2/>
+    	<scale X=2 Y=2 Z=2/>
+		<models>
+			<model file="cone.3d"/>
+		</models>
+	</group>
+    <group>
+		<color R=0.8 G=0.4/>
+        <translate X=10/>
+        <scale X=0.9 Y=0.9 Z=0.9/>
+		<models>
+			<model file="box.3d"/>
+		</models>
+	</group>
+</scene>
+

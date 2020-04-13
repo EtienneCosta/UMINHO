@@ -1,0 +1,39 @@
+\babel@toc {portuges}{}
+\contentsline {section}{\numberline {1}Resumo}{1}
+\contentsline {section}{\numberline {2}Introdu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {3}Preliminares}{4}
+\contentsline {subsection}{\numberline {3.1}Programa\IeC {\c c}\IeC {\~a}o em l\IeC {\'o}gica e PROLOG}{4}
+\contentsline {section}{\numberline {4}Base de conhecimento}{5}
+\contentsline {subsection}{\numberline {4.1}An\IeC {\'a}lise conceptual do problema}{5}
+\contentsline {subsection}{\numberline {4.2}Entidades}{5}
+\contentsline {subsubsection}{\numberline {4.2.1}Utente}{6}
+\contentsline {subsubsection}{\numberline {4.2.2}Servi\IeC {\c c}o}{6}
+\contentsline {subsubsection}{\numberline {4.2.3}Consulta}{6}
+\contentsline {subsubsection}{\numberline {4.2.4}Prestador}{6}
+\contentsline {subsubsection}{\numberline {4.2.5}Medicamento}{7}
+\contentsline {subsubsection}{\numberline {4.2.6}Receita}{7}
+\contentsline {section}{\numberline {5}Integridade da Base de Conhecimento}{8}
+\contentsline {subsection}{\numberline {5.1}Inser\IeC {\c c}\IeC {\~a}o de Conhecimento}{8}
+\contentsline {subsection}{\numberline {5.2}Remo\IeC {\c c}\IeC {\~a}o de conhecimento}{8}
+\contentsline {subsection}{\numberline {5.3}Invariantes Estruturais}{8}
+\contentsline {subsubsection}{\numberline {5.3.1}Invariantes de inser\IeC {\c c}\IeC {\~a}o}{9}
+\contentsline {subsubsection}{\numberline {5.3.2}Invariantes de remo\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {subsection}{\numberline {5.4}Invariantes Referenciais}{10}
+\contentsline {section}{\numberline {6}Funcionalidades}{12}
+\contentsline {subsection}{\numberline {6.1}Registar utentes,servi\IeC {\c c}os,consultas,prestadores,medicamentos e receitas}{12}
+\contentsline {subsection}{\numberline {6.2}Remover utentes,servi\IeC {\c c}os,consultas,prestadores,medicamentos e receitas}{12}
+\contentsline {subsection}{\numberline {6.3}Identifica\IeC {\c c}\IeC {\~a}o das institui\IeC {\c c}\IeC {\~o}es prestadoras de servi\IeC {\c c}os}{13}
+\contentsline {subsection}{\numberline {6.4}Identifica\IeC {\c c}\IeC {\~a}o de utentes por crit\IeC {\'e}rios de sele\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {subsection}{\numberline {6.5}Identifica\IeC {\c c}\IeC {\~a}o de prestadores por crit\IeC {\'e}rios de sele\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {subsection}{\numberline {6.6}Identifica\IeC {\c c}\IeC {\~a}o de medicamentos por crit\IeC {\'e}rios de sele\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {6.7}Identifica\IeC {\c c}\IeC {\~a}o de receitas por crit\IeC {\'e}rios de sele\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {6.8}Identifica\IeC {\c c}\IeC {\~a}o de servi\IeC {\c c}os por crit\IeC {\'e}rios de sele\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {6.9}Identifica\IeC {\c c}\IeC {\~a}o de consultas por crit\IeC {\'e}rios de sele\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {subsection}{\numberline {6.10}Identifica\IeC {\c c}\IeC {\~a}o de servi\IeC {\c c}os prestados por institui\IeC {\c c}\IeC {\~a}o/cidade}{15}
+\contentsline {subsection}{\numberline {6.11}Identifica\IeC {\c c}\IeC {\~a}o de utentes de um servi\IeC {\c c}o/institui\IeC {\c c}\IeC {\~a}o}{16}
+\contentsline {subsection}{\numberline {6.12}Identifica\IeC {\c c}\IeC {\~a}o de servi\IeC {\c c}os realizados por utente/institui\IeC {\c c}\IeC {\~a}o/data/custo}{16}
+\contentsline {subsection}{\numberline {6.13}C\IeC {\'a}lculo do custo total dos cuidados de sa\IeC {\'u}de por utente/servi\IeC {\c c}o/institui\IeC {\c c}\IeC {\~a}o/data}{16}
+\contentsline {section}{\numberline {7}Extras}{17}
+\contentsline {section}{\numberline {8}Conclus\IeC {\~a}o}{19}
+\contentsline {section}{\numberline {9}Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{20}
+\contentsline {section}{\numberline {10}Fun\IeC {\c c}\IeC {\~o}es Auxiliares}{21}

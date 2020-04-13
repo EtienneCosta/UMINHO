@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Beneficiado
+comment1.params=
+comment1.target=double\ reducaoImposto()
+comment1.text=\n\ M\u00E9todo\ que\ reduz\ o\ imposto\ as\ fam\u00EDlias\ numerosas\ ou\ as\ empresas\ situadas\ num\ respectivo\ concelho\ fiscal.\n
+numComments=2

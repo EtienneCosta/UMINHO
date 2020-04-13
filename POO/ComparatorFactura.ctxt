@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ComparatorFactura
+comment1.params=f1\ f2
+comment1.target=int\ compare(Factura,\ Factura)
+numComments=2

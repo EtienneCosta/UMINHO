@@ -1,0 +1,54 @@
+<scene>
+    <group>
+        <color G=0.4 B=0.8/>
+        <translate X="25" Y="0" Z="0" />
+        <scale X="2" Y="2" Z="2" />
+        <models>
+            <model file = "box.3d"  texture="sun.jpg"/>
+        </models>
+    </group>
+    <group>
+        <color G=0.4 B=0.8/>
+        <translate X="10" Y="0" Z="0" />
+        <scale X="2" Y="2" Z="2" />
+        <models>
+            <model file = "sphere.3d" texture="sun.jpg" />
+        </models>
+    </group>
+    <group>
+        <color G=0.4 B=0.8/>
+        <scale X="4" Y="4" Z="4" />
+        <translate X="-5" Y="0" Z="0" />
+        <rotate angle="90" axisX="0" axisY="0" axisZ="1" />
+        <models>
+            <model file = "cone.3d" texture="sun.jpg"  />
+        </models>
+    </group>
+    <group>
+        <color G=0.4 B=0.8/>
+        <scale X="2" Y="2" Z="2" />
+        <translate X="-25" Y="0" Z="0" />
+        <models>
+            <model file = "plane.3d" />
+        </models>
+    </group>
+    <group>
+        <color G=0.4 B=0.8/>
+        <scale X="0.3" Y="0.3" Z="0.3" />
+        <translate time="10" >
+            <point X="0" Y="0" Z="40" />
+            <point X="28.284" Y="0" Z="28.284" />
+            <point X="40" Y="0" Z="0" />
+            <point X="28.284" Y="0" Z="-28.284" />
+            <point X="0" Y="0" Z="-40" />
+            <point X="-28.2847" Y="0" Z="-28.284" />
+            <point X="-40" Y="0" Z="0" />
+            <point X="-28.284" Y="0" Z="28.284" />
+        </translate>
+        <scale X="4" Y="2" Z="2" />
+        <rotate angle="-90" axisX="1" axisY="0" axisZ="0" />
+        <models>
+            <model file = "teapot.3d" />
+        </models>
+    </group>
+</scene>

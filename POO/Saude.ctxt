@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Saude
+comment0.text=\n\ Subclasse\ de\ Actividade\:\ Sa\u00FAde\n
+comment1.params=
+comment1.target=Saude()
+comment1.text=Construtor\ por\ Omiss\u00E3o
+comment2.params=s
+comment2.target=Saude(Saude)
+comment2.text=Construtor\ de\ c\u00F3pia
+comment3.params=
+comment3.target=Saude\ clone()
+numComments=4
