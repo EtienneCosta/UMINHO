@@ -10,6 +10,7 @@ Projects developed during the computer engineering course.
   
   - [Object Oriented Programming](https://github.com/EtienneCosta/UMINHO/tree/master/POO) -Application To Generate Invoices And Calculate Tax Deduction.
   
+  - [Program Calculation](https://github.com/EtienneCosta/UMINHO/tree/master/CP) - Advanced Functional Programming.
   
 * **3rd year**:
 
