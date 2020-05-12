@@ -38,8 +38,8 @@ Projects developed during the computer engineering course.
 
 
 ## Contributors
-
-* [Joana Cruz](https://github.com/joanacruz94)
 * [Miguel Quaresma](https://github.com/MQuaresma)
 * [Rui Azevedo](https://github.com/ruiAzevedo19)
 * [Pedro Paes](https://github.com/pedropaes)
+* [Joana Cruz](https://github.com/joanacruz94)
+
