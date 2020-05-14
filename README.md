@@ -44,5 +44,4 @@ Projects developed during the computer engineering course.
 * [Joana Cruz](https://github.com/joanacruz94)
 * [Rui Azevedo](https://github.com/ruiAzevedo19)
 * [Pedro Paes](https://github.com/pedropaes)
-
-
+* [Pedro Costa](https://github.com/pCosta99)
