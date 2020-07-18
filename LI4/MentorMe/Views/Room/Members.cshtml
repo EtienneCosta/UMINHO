@@ -1,0 +1,241 @@
+﻿@model MentorMe.Models.Room
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Members";
+
+
+}
+<hr>
+
+<style>
+    .outer {
+        position: relative;
+        margin: auto auto auto 10px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .inner {
+        width: inherit;
+        text-align: center;
+    }
+
+    label {
+        font-size: .8em;
+        line-height: 2em;
+        text-transform: uppercase;
+        color: red;
+        transition: all .3s ease-in;
+        opacity: 0;
+        cursor: pointer;
+        margin-bottom: 0px !important;
+    }
+
+    .inner:before, .inner:after {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: inherit;
+        background: red;
+        left: 0;
+        transition: all .3s ease-in;
+    }
+
+    .inner:before {
+        top: 50%;
+        transform: rotate(45deg);
+    }
+
+    .inner:after {
+        bottom: 50%;
+        transform: rotate(-45deg);
+    }
+
+    .outer:hover label {
+        opacity: 1;
+    }
+
+    .outer:hover .inner:before,
+    .outer:hover .inner:after {
+        transform: rotate(0);
+    }
+
+    .outer:hover .inner:before {
+        top: 0;
+    }
+
+    .outer:hover .inner:after {
+        bottom: 0;
+    }
+</style>
+
+@if (!ViewBag.isAdmin)
+{
+
+    <div style="display:flex; flex-direction:row; justify-content: space-evenly;">
+
+        <div class="lefty" style="width:30%;">
+            <p style="color:blue"> Room Mentors :</p>
+
+
+            @if (ViewBag.NoMentors)
+            {
+                <p style="font-size: small; color:grey;">-Room without mentors </p>
+
+              
+            }
+            else
+            {
+                <div class="list-group">
+                    @foreach (var mentors in ViewBag.Mentors)
+                    {
+
+                        <a style="margin-bottom:5px;" class="list-group-item list-group-item-action list-group-item-success">@mentors.Username</a>
+
+                       
+                    }
+                </div>
+            }
+        </div>
+
+
+        <div class="righty" style="width:30%;">
+            <p style="color:blue"> Room Subscribers:</p>
+
+
+            @if (ViewBag.NoSubscribers)
+            {
+                <p style="font-size: small; color:grey;">-Room without subscribers: </p>
+
+             
+            }
+            else
+            {
+                <div class="list-group">
+                    @foreach (var subscribers in ViewBag.Subscribers)
+                    {
+                        <a style="margin-bottom:5px;" class="list-group-item list-group-item-action list-group-item-success">@subscribers.Username</a>
+
+                      
+                    }
+
+                </div>
+            }
+        </div>
+
+    </div>
+
+}
+else
+{
+<div style="display:flex; flex-direction:row; justify-content: space-evenly;">
+
+    <div class="lefty" style="width:30%;">
+        <p style="color:blue"> Room Mentors:</p>
+
+
+        @if (ViewBag.NoMentors)
+        {
+            <p style="font-size: small; color:grey;">--Room without mentors  </p>
+
+
+        }
+        else
+        {
+            <div class="list-group">
+                @foreach (var mentors in ViewBag.Mentors)
+                {
+
+
+                    <a style="margin-bottom:5px;" id="button" onclick="return myFunc()" href='@Url.Action("Demote", "Room", new { id = mentors.UserID })' class="list-group-item list-group-item-action list-group-item-success teste ">@mentors.Username</a>
+
+
+                }
+            </div>
+        }
+    </div>
+
+
+    <div class="righty" style="width:30%;">
+        <p style="color:blue"> Room Subscribers :</p>
+
+
+        @if (ViewBag.NoSubscribers)
+        {
+            <p style="font-size: small; color:grey;">-Room without subscribers !</p>
+
+
+        }
+        else
+        {
+    <div class="list-group">
+        @foreach (var subscribers in ViewBag.Subscribers)
+        {
+            <div style="display: flex">
+                <a style="margin-bottom:5px;" id="button" onclick="return myFunc()" href='@Url.Action("Promote", "Room", new { id = subscribers.UserID })' class="list-group-item list-group-item-action list-group-item-success teste ">@subscribers.Username</a>
+
+                <div class="outer">
+                    <div class="inner">
+                        <a onclick="showDeleteModal(@subscribers.UserID)" >
+                            <label>Remove</label>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="id @subscribers.UserID" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                <form class="modal-content" action="/action_page.php">
+                    <div class="container">
+                        <h1>Kick Member</h1>
+                        <p>Are you sure you want to kick this member?</p>
+
+                        <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id @subscribers.UserID').style.display='none'" class="cancelbtn">Cancel</button>
+                            <a href='@Url.Action("KickMember", "Room", new { id = subscribers.UserID })' > 
+                            <button type="button" onclick="document.getElementById('id @subscribers.UserID').style.display='none'" class="deletebtn">Delete</button>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        }
+    </div>
+
+        }
+    </div>
+
+
+  
+
+</div>
+}
+
+
+<script>
+
+    function showDeleteModal(n) {
+
+        // Get the modal
+
+        var modal = document.getElementById('id ' + n);
+        modal.style.display = 'block';
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    }
+
+</script>
+
+
+<hr />
+
+

@@ -1,0 +1,67 @@
+﻿    @model MentorMe.Models.Question
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "EnterQuestion";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+    <h4><markdown>@ViewBag.Question.Title</markdown></h4>
+
+    <div class="list-group">
+        <div class="col-md-4">
+            <markdown>@ViewBag.Question.Content</markdown>  
+        </div>
+
+        @if (ViewBag.AnswersLength == 0)
+        {
+            <p style="font-size: small; color:grey;">-No answers yet!</p>
+        }
+        else
+        {
+            <div class="list-group">
+                @foreach (Answer answer in ViewBag.Answers)
+                {
+                    if (answer.Valid)
+                    {
+                        <a style="background-color:aquamarine;margin-bottom:5px;" onclick="return myFunction()" href='@Url.Action("MarkAsValidAnswer", "Question", new { id = answer.AnswerID })' class="list-group-item list-group-item-action list-group-item-primary"><p>@answer.UserName</p><markdown>@answer.Content</markdown></a>
+                    }
+                    else
+                    {
+                        <a style="margin-bottom:5px;" onclick="return myFunction()" href='@Url.Action("MarkAsValidAnswer", "Question", new { id = answer.AnswerID })' class="list-group-item list-group-item-action list-group-item-primary"><p>@answer.UserName</p><markdown>@answer.Content</markdown></a>
+                        }
+
+                }
+
+            </div>
+
+        }
+        <div>
+            <a class="btn btn-outline-warning" onclick="location.href='@Url.Action("EnterRoom", "Room",new {id=@ViewBag.RoomID})'">Go back</a>
+        </div>
+
+        <p>
+            <span style="font-size: x-large; color: lightslategray;"> @ViewBag.Name </span>
+            <a style="margin-left:5px;" class="btn btn-outline-danger btn-sm" asp-area="" asp-controller="Question" asp-action="CreateAnswer">New answer</a>
+        </p>
+    </div>
+
+</body>
+</html>
+
+<script>
+    function myFunction() {
+
+        var x = confirm("Press OK to mark this answer as valid.");
+        if (x)
+            return true;
+        else
+            return false;
+    }
+
+</script>

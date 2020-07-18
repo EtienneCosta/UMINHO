@@ -1,0 +1,50 @@
+﻿@model MentorMe.Models.Notification
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Notifications";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+    <h4>Notifications</h4>
+
+    @foreach (Notification n in ViewBag.Notifications)
+    {
+        @if (@n.Type != "Request"){         
+            <a style="margin-bottom:5px;" onclick="return myFunction()" href='@Url.Action("SetInvisibleNotification", "Users",new { notID = n.NotificationID })' class="list-group-item list-group-item-action list-group-item-primary">@n.Date: @n.Type in  room @n.RoomName</a>
+        } else {
+<a style="margin-bottom:5px;" onclick="return addToRoom()" href='@Url.Action("AddUserToRoom", "Users",new { userid = @n.UserID, roomid = @n.RoomID, notID = @n.NotificationID })' class="list-group-item list-group-item-action list-group-item-primary">@n.Date: @n.UserName wants to join @n.RoomName .</a>
+        }
+    }
+
+</body>
+</html>
+
+<script>
+    function myFunction() {
+
+        var x = confirm("Delete notification? This action cannot be undone.");
+        if (x)
+            return true;
+        else
+            return false;
+    }
+
+</script>
+
+<script>
+    function addToRoom() {
+
+        var x = confirm("Add user to the room?");
+        if (x)
+            return true;
+        else
+            return false;
+    }
+
+</script>

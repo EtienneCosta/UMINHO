@@ -1,0 +1,22 @@
+﻿@model MentorMe.Models.Home
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<center>
+    <img src="images/homepage_classroom.png" class="mainImage">
+
+    <form asp-action="Search">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="input-group mb-3" style="width: 70%;">
+            <input asp-for="Content" class="form-control" placeholder="Search for mentors, universities, subjects..." aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+            <span asp-validation-for="Content" class="text-danger"></span>
+            <div class="input-group-append">
+                <input type="submit" value="Search" class="btn btn-outline-dark" />
+            </div>
+
+        </div>
+    </form>
+
+</center>

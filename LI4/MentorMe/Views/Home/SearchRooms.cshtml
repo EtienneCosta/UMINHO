@@ -1,0 +1,51 @@
+﻿@model MentorMe.Models.Home
+
+@{
+    ViewData["Title"] = "SearchRooms";
+}
+
+    <div style="display:flex; flex-direction:row; justify-content: space-evenly;">
+        <div class="lefty" style="width:24%">
+            <h4>Search results</h4>
+
+            @foreach (var room in ViewBag.Rooms)
+            {
+                <a style="margin-right:100px;" href='@Url.Action("EnterRoom", "Room", new { id = room.RoomID })' class="list-group-item list-group-item-action list-group-item-primary">@room.Nome</a>
+            }
+
+        </div>
+
+        <div class="righty" style="width:40%;">
+            <p style="color:blue"></p>
+
+            <h4>Refined search</h4>
+
+            <form asp-action="AdvancedSearch">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <input asp-for="Mentor" class="form-control" placeholder="search by MENTOR" />
+                    <span asp-validation-for="Mentor" class="text-danger"></span>
+
+
+                    <input asp-for="Tags" placeholder="search by TAG" class="form-control" />
+                    <span asp-validation-for="Tags" class="text-danger"></span>
+
+
+
+                    <input asp-for="Name" placeholder="search by Room Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+
+                    <div class="form-group">
+                        <input type="submit" value="Submit" class="btn btn-outline-danger" />
+
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+       

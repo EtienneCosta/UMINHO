@@ -1,0 +1,145 @@
+﻿@model MentorMe.Models.Room
+
+
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "DashBoard";
+}
+    <div class="container">
+        Hello @ViewBag.UserName, what are we doing today ?
+        <a style="margin-left:10px;" class="btn btn-outline-warning" asp-area="" asp-controller="Room" asp-action="CreateRoom">Create Room </a>
+
+        <a type="button" class="btn btn-primary" style="margin-bottom:5px; margin-top:5px;" href='@Url.Action("Notifications", "Users")'>
+            Notifications <span class="badge badge-light">@ViewBag.NotificationsCount</span>
+        </a>
+        <form asp-controller="Room" asp-action="JoinRoom" class="entercode">
+
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="input-group mb-3">
+
+                <input asp-for="RoomKey" class="form-control" placeholder="Insert your code here!" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                <span asp-validation-for="RoomKey" class="text-danger"></span>
+
+                <div class="input-group-append">
+                    <input type="submit" value="Enter" class="btn btn-outline-danger" />
+                </div>
+
+            </div>
+        </form>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Error Message </h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        @TempData["Message"]
+                
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+<hr>
+<div class="dashboard">
+
+    <div class="lefty">
+        <p style="color:blue">Your subscription Rooms:</p>
+
+
+
+        @if (ViewBag.NoRegRooms)
+        {
+            <p style="font-size: small; color:grey;">-No Rooms here, try searching something you like :)</p>
+        }
+        else
+        {
+            <div class="list-group">
+                @foreach (var room in ViewBag.Rooms)
+                {
+                    <a style="margin-bottom:5px;" href='@Url.Action("EnterRoom", "Room", new { id = room.RoomID })' class="list-group-item list-group-item-action list-group-item-primary">@room.Nome</a>
+                }
+            </div>
+        }
+
+    </div>
+
+
+
+    <div class="righty">
+        <p style="color:blue"> Your mentor Rooms:</p>
+
+
+        @if (ViewBag.NoMenRooms)
+        {
+            <p style="font-size: small; color:grey;">-No Rooms here, create a new mentor room !</p>
+        }
+        else
+        {
+            <div class="list-group">
+                @foreach (var room in ViewBag.MentorRooms)
+                {
+                    <a style="margin-bottom:5px;" href='@Url.Action("EnterRoom", "Room", new { id = room.RoomID })' class="list-group-item list-group-item-action list-group-item-success">@room.Nome</a>
+                }
+            </div>
+        }
+    </div>
+
+</div>
+
+
+@if (TempData["Message"]!= null)
+{
+    <script>
+
+        console.log("Joanaaa");
+
+                // Injecting JavaScript here
+
+                var modal = document.getElementById("myModal");
+
+                    var span = document.getElementsByClassName("close")[0];
+
+
+                modal.style.display = "block";
+
+
+
+                    span.onclick = function () {
+                    modal.style.display = "none";
+
+
+                }
+
+                window.onclick = function (event) {
+
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+    </script>
+
+
+
+}
+
+
+
+
+
+<hr />
+

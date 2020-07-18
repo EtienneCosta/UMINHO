@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MentorMe</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="~/css/modal.css" />
+    <link rel="stylesheet" href="~/css/delete.css" />
+
+
+
+    <link rel="shortcut icon" type="image/png" href="~/images/logoicon.png" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container" style="z-index: 1;">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/Images/logo.png" width=50 height="50">MentorMe
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+
+
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class='fas fa-cogs'></i>
+                        </a>
+
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href='@Url.Action("Index", "Users")'>
+                                <i class='far fa-user' style='font-size:24px'></i>
+                                Account
+                            </a>
+
+
+                            <a class="dropdown-item" href='@Url.Action("Logout", "Users")'>
+                                <i class='fas fa-door-open' style='font-size:24px'></i>
+                                LogOut
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="DashBoard">DashBoard</a>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - MentorMe - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetconfirm.js@0/sweetconfirm.min.js"></script>
+    <script src="~/js/confirm.js" asp-append-version="true"></script>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

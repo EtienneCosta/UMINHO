@@ -1,0 +1,108 @@
+﻿@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.mainImage {
+    width: 50%;
+    z-index: -1;
+    position: relative;
+    animation: float 4s ease-in-out infinite;
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bellow {
+    font-family: Avenir;
+    margin-top: -50px;
+}
+
+.entercode {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.dashead {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    justify-content:center;
+}
+
+.quest {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+.qlist {
+    display: flex;
+    flex-direction: column;
+    width: 170%;
+}
+
+.roominf {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(166deg, rgba(255,255,255,1) 56%, rgba(190,48,235,0.49763655462184875) 100%);
+}
+
+footer {
+    max-width: 0;
+    max-height: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainImage {
+        width: 80%;
+        margin-top:30%;
+    }
+
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .entercode {
+        width: 70%;
+    }
+
+    .dashead {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quest {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .qlist {
+        width:100%;
+    }
+
+    .roominf {
+        width:100%;
+    }
+}

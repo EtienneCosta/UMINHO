@@ -1,0 +1,116 @@
+﻿@model MentorMe.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+    <center>
+        <img src="~/images/logo.png" width="70" height="70" style="margin-bottom:30px; margin-top:50px;" />
+
+
+        <div class="row">
+
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+
+                <form asp-action="Login" method="post">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+
+                        <input asp-for="Username" class="form-control" placeholder="Username" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input asp-for="Password" class="form-control" type="password" placeholder="Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+
+                    </div>
+
+
+
+
+                    <div class="form-group" style="text-align:center">
+
+
+
+                        <input type="submit" value="Login" class="btn btn-outline-warning" />
+
+                        <input type="button" value="Register" class="btn btn-outline-danger" onclick="location.href='@Url.Action("Register", "Users")'" />
+
+                    </div>
+
+                </form>
+
+               
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Error Message </h2>
+                            <span class="close">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>@ViewBag.Message </p>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-4"></div>
+
+        </div>
+
+
+        @if (ViewBag.Message != null)
+        {
+            <script>
+
+                // Injecting JavaScript here
+
+                // Get the modal
+
+                var modal = document.getElementById("myModal");
+
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal
+
+                modal.style.display = "block";
+
+
+                // When the user clicks on <span> (x), close the modal
+
+                    span.onclick = function () {
+                    modal.style.display = "none";
+
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+
+            </script>
+
+
+
+        }
+
+    </center>

@@ -1,0 +1,54 @@
+﻿
+@model MentorMe.Models.Room
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+
+    <h4>Create a new sharing space here!</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="CreateRoom">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+
+                    <input asp-for="Nome" placeholder="Room Designation" class="form-control" />
+                    <span asp-validation-for="Nome" placeholder="Room Designation" class="text-danger"></span>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea asp-for="Description" placeholder="Insert Description"  rows="4" class="form-control"> </textarea>
+                        <span asp-validation-for="Description" placeholder="Insert Description" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-outline-danger" />
+                   
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-controller="Users" asp-action="DashBoard">Cancel & go back to DashBoard</a>
+
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿@model MentorMe.Models.File
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Files";
+}
+
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+<style>
+
+    .outer {
+        position: relative;
+        margin: auto auto auto 10px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .inner {
+        width: inherit;
+        text-align: center;
+    }
+
+    label {
+        font-size: .8em;
+        line-height: 2em;
+        text-transform: uppercase;
+        color: red;
+        transition: all .3s ease-in;
+        opacity: 0;
+        cursor: pointer;
+        margin-bottom: 0px !important;
+    }
+
+    .inner:before, .inner:after {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: inherit;
+        background: red;
+        left: 0;
+        transition: all .3s ease-in;
+    }
+
+    .inner:before {
+        top: 50%;
+        transform: rotate(45deg);
+    }
+
+    .inner:after {
+        bottom: 50%;
+        transform: rotate(-45deg);
+    }
+
+    .outer:hover label {
+        opacity: 1;
+    }
+
+    .outer:hover .inner:before,
+    .outer:hover .inner:after {
+        transform: rotate(0);
+    }
+
+    .outer:hover .inner:before {
+        top: 0;
+    }
+
+    .outer:hover .inner:after {
+        bottom: 0;
+    }
+</style>
+
+<body>
+
+    <h1>Upload</h1>
+    <hr />
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <section>
+                    <form method="post" enctype="multipart/form-data" asp-controller="Room" asp-action="SendFiles">
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <p>Send one or more files: </p>
+                                <input type="file" name="files" multiple />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <input type="submit" value="Send File" />
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    @if (ViewBag.FileLength == 0)
+    {
+        <p style="font-size: small; color:grey;">-No files yet!</p>
+    }
+    else
+    {
+        <div class="list-group" >
+            @foreach (File file in ViewBag.Files)
+            {
+            
+                    <a  style="width:97%;" onclick="return myFunction()" target="_blank" class="list-group-item list-group-item-action list-group-item-primary" asp-area="" asp-controller="Room" asp-action="DownloadFile" asp-route-id="@file.FileID">@file.Title </a>
+               <div class="outer">
+                   <div class="inner">
+                       <a href='@Url.Action("RemoveFiles", "Room", new { id = file.FileID })'> <label>delete</label> </a>
+                   </div>
+               </div>
+            
+            }
+        </div>
+    }
+
+
+</body>
+</html>
+
+<script>function myFunction() {
+
+        var x = confirm("Press OK to download the file.");
+        if (x)
+            return true;
+        else
+            return false;
+    }</script>

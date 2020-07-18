@@ -1,0 +1,24 @@
+﻿@model MentorMe.Models.Home
+
+
+
+<div class="lefty" style="width:30%">
+    <p style="color:blue">Search results:</p>
+
+
+
+    @if (ViewBag.RoomCount == 0)
+    {
+        <p style="font-size: small; color:grey;">-No Rooms here, try searching again :) </p>
+    }
+    else
+    {
+        <div class="list-group">
+            @foreach (var room in ViewBag.Rooms)
+            {
+                <a style="margin-bottom:5px;" href='@Url.Action("RefineSearchAction", "Room", new { RoomID = room.RoomID })' class="list-group-item list-group-item-action list-group-item-primary">@room.Nome</a>
+            }
+        </div>
+    }
+
+</div>

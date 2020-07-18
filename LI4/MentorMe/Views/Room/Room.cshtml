@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Room";
+}
+
+<div class="quest">
+    <div class="qlist">
+            <p style="font-size: x-large; color: lightslategray;"> @ViewBag.Name </p>
+            <span style="margin-bottom:10px;">
+                <a class="btn btn-outline-danger btn-sm" asp-area="" asp-controller="Question" asp-action="CreateQuestion">New question</a>
+                <a style="margin-left:2px;" class="btn btn-outline-danger btn-sm" asp-area="" asp-controller="Room" asp-action="Members"> Members </a>
+                <a style="margin-left:2px;" class="btn btn-outline-danger btn-sm" asp-area="" asp-controller="Room" asp-action="Files"> Files </a>
+                <a style="margin-left:2px;" class="btn btn-outline-danger btn-sm" asp-area="" asp-controller="Room" asp-action="LeaveRoom">Leave Room </a>
+            </span>
+        <div style="margin-right:50px;" class="list-group">
+            @foreach (var question in ViewBag.Questions)
+            {
+                <a style="margin-bottom:5px;" href='@Url.Action("EnterQuestion", "Question", new { id = question.QuestionID })' class="list-group-item list-group-item-action list-group-item-primary"><markdown>@question.Title</markdown></a>
+            }
+        </div>
+    </div>
+
+
+
+    <div class="rominf">
+        <p style="font-size: large;">Mentor: <span style="color: lightslategrey">@ViewBag.MentorName</span></p>
+        <p style="font-size: large;"> About the room: <span style="color: lightslategrey">@ViewBag.CurrentRoom.Description</span></p>
+    </div>
+</div>
+
+

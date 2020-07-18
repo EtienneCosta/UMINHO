@@ -1,0 +1,34 @@
+﻿@model MentorMe.Models.Tag
+
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "Tags";
+}
+<!DOCTYPE html>
+
+<html>
+<h1>
+    @ViewBag.UserName Welcome to the room @ViewBag.RoomName
+</h1>
+<body>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="AssociateTags">              
+                
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="input-group mb-3">
+                    <input asp-for="Name" class="form-control" placeholder="add a #TAG to help find this room" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <div class="input-group-append">
+                        <input type="submit" value="add" class="btn btn-outline-warning" />
+                    </div>
+                    <div>
+                        <a style="margin-left:10px;" class="btn btn-outline-warning" asp-area="" asp-controller="Users" asp-action="Dashboard"> Done </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

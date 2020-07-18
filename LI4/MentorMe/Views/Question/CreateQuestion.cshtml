@@ -1,0 +1,48 @@
+﻿@model MentorMe.Models.Question
+
+
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewData["Title"] = "CreateQuestion";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+
+    <h4>New Question</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="CreateQuestion">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+
+                    <input asp-for="Title" placeholder="Title Designation" class="form-control" />
+                    <span asp-validation-for="Title" placeholder="Title Designation" class="text-danger"></span>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea asp-for="Content" placeholder="Content" rows="4" class="form-control"> </textarea>
+                        <span asp-validation-for="Content" placeholder="Content" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-outline-danger" />
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
