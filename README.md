@@ -31,8 +31,13 @@ Projects developed during the computer engineering course.
    
     - [Distributed Systems ](https://github.com/EtienneCosta/UMINHO/tree/master/SD) - Music Sharing Plataform (SoundCloud).
    
+<<<<<<< HEAD
 
    - [Software Labs IV](https://github.com/EtienneCosta/UMINHO/tree/master/LI4) -  Question and answer platform (Mentor Me).
+=======
+    - [Stochastic Models of Operational Research ](https://github.com/EtienneCosta/UMINHO/tree/master/MEIO) -Stochastic Dynamic Programming and Markovian Processes
+
+>>>>>>> a30c4a8f1364416148d50f2da913d21a2b142999
    
   
   
@@ -40,8 +45,8 @@ Projects developed during the computer engineering course.
 
 
 ## Contributors
-
-* [Joana Cruz](https://github.com/joanacruz94)
 * [Miguel Quaresma](https://github.com/MQuaresma)
+* [Joana Cruz](https://github.com/joanacruz94)
 * [Rui Azevedo](https://github.com/ruiAzevedo19)
 * [Pedro Paes](https://github.com/pedropaes)
+* [Pedro Costa](https://github.com/pCosta99)
