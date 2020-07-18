@@ -33,12 +33,10 @@ Projects developed during the computer engineering course.
    
 
    - [Software Labs IV](https://github.com/EtienneCosta/UMINHO/tree/master/LI4) -  Question and answer platform (Mentor Me).
-
    
    - [Stochastic Models of Operational Research ](https://github.com/EtienneCosta/UMINHO/tree/master/MEIO) -Stochastic Dynamic Programming and Markovian Processes
 
     - [Language Processing ](https://github.com/EtienneCosta/UMINHO/tree/master/PL) - Flex & YACC.
-
 
 
    
