@@ -1,0 +1,5 @@
+make clean
+make
+./gedcom dataset/Royal92.ged.txt 
+open html/index.html 
+

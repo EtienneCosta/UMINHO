@@ -1,0 +1,10 @@
+gedcom
+lex.yy.c
+y.tab.c
+y.tab.o
+lex.yy.o
+y.tab.h
+
+.DS_Store
+
+

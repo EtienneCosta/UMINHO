@@ -1,0 +1,4 @@
+make clean
+make
+./gedcom dataset/Uminho.ged.txt 
+open html/index.html

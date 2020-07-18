@@ -1,0 +1,174 @@
+0 @I1@ INDI
+1 NAME Etienne da Silva Filipe Amado da Costa
+1 SEX M
+1 BIRT
+2 DATE 28 MAR 1994
+2 PLAC Luanda,Angola
+1 FAMS @F1@	
+1 FAMC @F2@
+
+0 @I2@ INDI
+1 NAME Beyonce Knowles Costa
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1981
+2 PLAC Houston,EUA
+1 FAMS @F1@
+1 FAMC @F3@
+
+
+0 @I3@ INDI
+1 NAME  Etienne da Silva Filipe Amado da Costa Junior
+1 SEX M
+1 BIRT
+2 DATE 20 DEC 2015
+2 PLAC Lisboa,Portugal
+1 FAMC @F1@
+
+0 @I4@ INDI
+1 NAME  Blue Ivy Costa
+1 SEX F
+1 BIRT
+2 DATE 20 DEC 2017
+2 PLAC Lisboa,Portugal
+1 FAMC @F1@
+
+0 @I5@ INDI
+1 NAME  Francisco Manuel da Costa
+1 SEX M
+1 BIRT
+2 DATE 27 AUG 1955
+2 PLAC Luanda,Angola
+1 FAMS @F2@
+
+0 @I6@ INDI
+1 NAME  Maria Cristina Pinheiro da Silva
+1 SEX F
+1 BIRT
+2 DATE 12 JUN 1957
+2 PLAC Kinshasa,Republica Democratica do Congo
+1 FAMS @F2@
+
+0 @I7@ INDI
+1 NAME Celestine Ann Knowles
+1 SEX F
+1 BIRT
+2 DATE 4 JAN 1954
+2 PLAC Houston,EUA
+1 FAMS @F3@
+
+0 @I8@ INDI
+1 NAME Mathew Knowles
+1 SEX M
+1 BIRT
+2 DATE 9 JAN 1951
+2 PLAC Houston,EUA
+1 FAMS @F3@
+
+0 @I9@ INDI
+1 NAME Walter Costa
+1 SEX M
+1 BIRT
+2 DATE 29 MAR 1985
+2 PLAC Luanda,Angola
+1 FAMC @F2@
+
+0 @I10@ INDI
+1 NAME Indira Semedo
+1 SEX F
+1 BIRT
+2 DATE 9 JUL 1980
+2 PLAC Luanda,Angola
+1 FAMC @F2@
+
+0 @I11@ INDI
+1 NAME Rui Filipe Brito Azevedo
+1 SEX M
+1 BIRT
+2 DATE 19 MAY 1975
+2 PLAC Braga,Portugal
+1 FAMS @F4@
+
+0 @I12@ INDI
+1 NAME Georgina Rodriguez
+1 SEX F
+1 BIRT
+2 DATE 27 JAN 1974
+2 PLAC Madrid,Spain
+1 FAMS @F4@
+
+0 @I13@ INDI
+1 NAME Cristiano Ronaldo Azevedo
+1 SEX M
+1 BIRT
+2 DATE 27 JAN 1994
+2 PLAC Funchal,Portugal
+1 FAMC @F4@
+1 FAMS @F5@
+
+
+0 @I14@ INDI
+1 NAME Cristiano Ronaldo Azevedo Junior 
+1 SEX M 
+1 BIRT
+2 DATE 3 JUN 2016
+2 PLAC Madrid,Spain
+1 FAMC @F5@
+
+0 @I15@ INDI
+1 NAME Alana Martina Rodriguez Azevedo
+1 SEX F
+1 BIRT
+2 DATE 3 JUN 2016
+2 PLAC Madrid,Spain
+1 DEAT
+2 DATE 14 FEB 2020
+1 BURI
+2 PLAC Funchal,Portugal
+1 FAMC @F5@
+
+
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 DIV N
+1 MARR
+2 DATE 10 MAR 2019
+2 PLAC Braga,Portugal
+
+0 @F2@ FAM
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I1@
+1 CHIL @I9@
+1 CHIL @I10@
+1 DIV Y
+1 MARR
+2 DATE 10 MAY 2000
+2 PLAC Pretoria,South Africa
+
+0 @F3@ FAM
+1 HUSB @I7@
+1 WIFE @I8@
+1 CHIL @I2@
+1 DIV N
+1 MARR
+2 DATE 15 JAN 1998
+2 PLAC Paris,France
+
+0 @F4@ FAM
+1 HUSB @I11@
+1 WIFE @I12@
+1 CHIL @I13@
+1 DIV N
+
+
+0 @F5@ FAM
+1 HUSB @I13@
+1 CHIL @I14@
+1 CHIL @I15@
+1 DIV N
+
+0 TRLR
