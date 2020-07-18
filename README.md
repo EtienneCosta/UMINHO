@@ -31,13 +31,11 @@ Projects developed during the computer engineering course.
    
     - [Distributed Systems ](https://github.com/EtienneCosta/UMINHO/tree/master/SD) - Music Sharing Plataform (SoundCloud).
    
-<<<<<<< HEAD
 
    - [Software Labs IV](https://github.com/EtienneCosta/UMINHO/tree/master/LI4) -  Question and answer platform (Mentor Me).
-=======
-    - [Stochastic Models of Operational Research ](https://github.com/EtienneCosta/UMINHO/tree/master/MEIO) -Stochastic Dynamic Programming and Markovian Processes
 
->>>>>>> a30c4a8f1364416148d50f2da913d21a2b142999
+  - [Stochastic Models of Operational Research ](https://github.com/EtienneCosta/UMINHO/tree/master/MEIO) -Stochastic Dynamic Programming and Markovian Processes
+
    
   
   
